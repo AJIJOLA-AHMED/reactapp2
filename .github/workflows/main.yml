@@ -48,7 +48,7 @@ jobs:
 
         with:
 
-          role-to-assume: arn:aws:iam::095927792931:role/github-deployer-role
+          role-to-assume: arn:aws:iam::095927792931:role/github-role
 
           aws-region: ${{ env.AWS_REGION }}
 
